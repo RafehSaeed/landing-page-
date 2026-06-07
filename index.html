@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bemi: Dating with Intent</title>
+    <meta name="description" content="The dating app that kills ghosting and forces authentic, focused conversations.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="blob-bg"></div>
+
+    <nav class="navbar">
+        <div class="container nav-content">
+            <div class="logo">
+                <img src="../assets/logo.png" alt="Bemi Logo" class="logo-image">
+                Bemi
+            </div>
+            <a href="#hero" class="btn btn-outline">Get the App</a>
+        </div>
+    </nav>
+
+    <header class="hero" id="hero">
+        <div class="container hero-container">
+            <div class="hero-text fade-up">
+                <div class="hero-badge">The New Standard of Dating</div>
+                <h1>Dating with <span class="highlight">Intent.</span></h1>
+                <p class="hero-sub">
+                    You are swiping on apps designed to keep you single. Bemi fixes the math of romance with a strict
+                    6-match limit, killing ghosting and making you the priority. Stop swiping. Start connecting.
+                </p>
+
+                <div class="store-badges fade-up delay-1">
+                    <div class="store-badge coming-soon">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Download_on_the_App_Store_Badge.svg" alt="App Store - Coming Soon">
+                    </div>
+                    <div class="store-badge coming-soon">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Google Play - Coming Soon">
+                    </div>
+                </div>
+                <p class="coming-soon-label fade-up delay-1">Coming Soon to iOS & Android</p>
+
+                <div class="notify-form fade-up delay-2">
+                    <p class="notify-label">Be the first to know when we launch.</p>
+                    <form class="notify-row" onsubmit="event.preventDefault(); handleNotify(this);">
+                        <input type="email" placeholder="your@email.com" required>
+                        <button type="submit">Notify Me</button>
+                    </form>
+                    <p class="notify-disclaimer">Founding Members get lifetime priority city unlock.</p>
+                </div>
+            </div>
+
+            <div class="hero-visual fade-up delay-2">
+                <div class="phone-mockup">
+                    <div class="phone-screen app-bg">
+                        <img class="phone-screenshot" src="assets/listing-1.png" alt="Bemi App Screenshot">
+                        <div class="notch" style="display:none"></div>
+                        <div class="app-ui" style="display:none">
+                            <div class="app-header">
+                                <div class="app-logo-group">
+                                    <img src="../assets/logo.png" alt="Bemi" class="app-panda-logo">
+                                    <span class="app-title">Discover</span>
+                                </div>
+                                <div class="app-toggle">
+                                    <div class="toggle-inner"></div>
+                                </div>
+                            </div>
+
+                            <div class="profile-card">
+                                <span class="profile-pill">Founding Member</span>
+                                <div class="profile-image"></div>
+                                <div class="profile-info">
+                                    <h2>Rafeh Saeed <span class="age">30</span></h2>
+                                    <p class="job-title">Lead Developer · San Francisco</p>
+                                    <p class="bio">Building the app that makes dating intentional. Into sunrise hikes, live jazz, and espresso over small talk.</p>
+                                    <div class="tags">
+                                        <span class="tag">#Movies</span>
+                                        <span class="tag">#Tech</span>
+                                        <span class="tag">#Photography</span>
+                                    </div>
+                                    <div class="profile-metrics">
+                                        <div class="metric">
+                                            <span class="metric-label">Slots</span>
+                                            <span class="metric-value">6 / 6</span>
+                                        </div>
+                                        <div class="metric">
+                                            <span class="metric-label">Swap Rate</span>
+                                            <span class="metric-value metric-good">0%</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="action-buttons">
+                                    <div class="action-btn small action-gray">⟲</div>
+                                    <div class="action-btn large action-pass">✕</div>
+                                    <div class="action-btn large action-like">♥</div>
+                                    <div class="action-btn small action-gray">💬</div>
+                                </div>
+                            </div>
+
+                            <div class="bottom-nav">
+                                <div class="nav-icon active">🏠</div>
+                                <div class="nav-icon">💬</div>
+                                <div class="nav-icon">♥</div>
+                                <div class="nav-icon">👤</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="glow-orb"></div>
+            </div>
+        </div>
+    </header>
+
+    <section class="agitation">
+        <div class="container text-center fade-up">
+            <p class="agitation-lead">You are swiping on apps designed to keep you single.</p>
+            <h2 class="agitation-headline">It's not you. The system is broken.</h2>
+            <p class="agitation-body">When dating apps give people infinite options, they treat everyone like a disposable option. You deserve to be someone's priority, not just another face sitting in an endless, unread inbox.</p>
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="container">
+            <div class="section-title fade-up">
+                <p class="section-kicker">Built for intentional dating</p>
+                <h2>A system that makes serious people easy to find.</h2>
+                <p class="section-intro">Most dating apps reward endless browsing. Bemi rewards focus, accountability, and real commitment.</p>
+            </div>
+
+            <div class="feature-rail">
+                <div class="features-list">
+
+                    <div class="feature-item fade-up">
+                        <div class="feature-meta">
+                            <span class="feature-step">01</span>
+                            <div class="feature-icon">🔒</div>
+                        </div>
+                        <div class="feature-content">
+                            <div class="feature-head">
+                                <h3>The 6-Match Secret</h3>
+                                <span class="feature-pill">Exclusivity</span>
+                            </div>
+                            <p>You can only hold 6 active connections at a time. No benching. No back-burners. <strong>If someone matches with you, you have real priority.</strong></p>
+                        </div>
+                    </div>
+
+                    <div class="feature-item fade-up delay-1">
+                        <div class="feature-meta">
+                            <span class="feature-step">02</span>
+                            <div class="feature-icon">🚩</div>
+                        </div>
+                        <div class="feature-content">
+                            <div class="feature-head">
+                                <h3>The Ghosting Antidote</h3>
+                                <span class="feature-pill">Accountability</span>
+                            </div>
+                            <p>We track each profile's Swap Rate so you can spot flaky behavior instantly. <strong>See who treats dating like a game before you even say hello.</strong></p>
+                        </div>
+                    </div>
+
+                    <div class="feature-item fade-up delay-2">
+                        <div class="feature-meta">
+                            <span class="feature-step">03</span>
+                            <div class="feature-icon">🥂</div>
+                        </div>
+                        <div class="feature-content">
+                            <div class="feature-head">
+                                <h3>Commitment Mode</h3>
+                                <span class="feature-pill">Resolution</span>
+                            </div>
+                            <p>Found someone you genuinely like? Freeze all other matches in one tap and remove distractions. <strong>Focus entirely on each other.</strong></p>
+                        </div>
+                    </div>
+
+                    <div class="feature-item fade-up delay-3">
+                        <div class="feature-meta">
+                            <span class="feature-step">04</span>
+                            <div class="feature-icon">✨</div>
+                        </div>
+                        <div class="feature-content">
+                            <div class="feature-head">
+                                <h3>No Compromises</h3>
+                                <span class="feature-pill">Deep Alignment</span>
+                            </div>
+                            <p>Filter by religion, family plans, and true dealbreakers from the start. <strong>Don't waste weeks on mismatched expectations.</strong></p>
+                        </div>
+                    </div>
+
+                    <div class="feature-item feature-item-spotlight fade-up">
+                        <div class="feature-meta">
+                            <span class="feature-step">05</span>
+                            <div class="feature-icon">🍾</div>
+                        </div>
+                        <div class="feature-content">
+                            <div class="feature-head">
+                                <h3>The Velvet Rope</h3>
+                                <span class="feature-pill">Exclusivity</span>
+                            </div>
+                            <p>Most dating apps flood ghost towns with fake profiles to look busy. Bemi doesn't. Your city stays gated until enough real people join to hit the quality threshold. <strong>Join early</strong> to become a <strong>Founding Member</strong> — then invite friends to unlock your city faster on launch day. <strong>Everyone gets in together.</strong></p>
+                        </div>
+                    </div>
+
+                    <div class="inline-cta fade-up">
+                        <p>Your city might already be building momentum. Get notified when the gates open.</p>
+                        <a href="#hero" class="btn btn-primary">Join Early Access</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-section">
+        <div class="container text-center fade-up">
+            <h2>Stop letting algorithms waste your Friday nights.</h2>
+            <p>Bemi is launching city by city. Join the early access list to secure Founding Member status for your city before the gates open.</p>
+            <div class="store-badges center-badges fade-up delay-1">
+                <div class="store-badge coming-soon">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Download_on_the_App_Store_Badge.svg" alt="App Store - Coming Soon">
+                </div>
+                <div class="store-badge coming-soon">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Google Play - Coming Soon">
+                </div>
+            </div>
+            <p class="coming-soon-label fade-up delay-1">Coming Soon to iOS & Android</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container footer-content">
+            <a href="index.html" class="logo">
+                <img src="../assets/logo.png" alt="Bemi Logo" class="logo-image">
+                Bemi
+            </a>
+            <div class="footer-links">
+                <a href="privacy-policy.html">Privacy Policy</a>
+                <a href="terms-of-service.html">Terms of Service</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <p class="copyright">&copy; 2026 Bemi Dating. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
